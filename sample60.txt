@@ -1,0 +1,4 @@
+Hello we are here everyone 
+<!..this is a test of file handling ...!!>
+
+where is the writing 
