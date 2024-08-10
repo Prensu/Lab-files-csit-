@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Inner Html</title>
+    </head>
+    <body>
+        <form>
+            <input type="button" value="show-magic" onclick="showcommentform()"/>
+            <div id="mylocation"></div>
+        </form>
+    <script type="text/javascript">
+        function showcommentform(){
+            var data=alert("javascript seems to be fun !!!")
+            document.getElementById("mylocation").innerHTML=data;
+        }
+    </script>
+    </body>
+</html>

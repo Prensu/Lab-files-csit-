@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUmber Validation </title>
+    
+
+</head>
+<body>
+    <form>
+        <p> This is for number validation in form</p>
+        Enter the number:<input type="text" id="number" name="number"/>
+        <input type="button" value="submit" onclick="printvalue()" >
+        
+    </form>
+
+    <script type="text/javascript">
+        function printvalue(){
+            var pattern=/^[0-9]{5}$/;
+            var number=document.getElementById("number").value;
+            if(!number.match(pattern)){
+               alert("please enter exactly 5 digits ! ");}
+                else{
+                    alert("Your registeration form has been accepted")
+                }
+    
+            
+        }
+    </script>
+</body>
+</html>
