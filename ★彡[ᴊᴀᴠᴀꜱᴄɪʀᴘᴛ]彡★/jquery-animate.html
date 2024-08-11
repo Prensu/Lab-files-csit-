@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Animation Example</title>
+    <style>
+        #animated-div {
+            position: relative; /* Allow the left property to work */
+            left: 0; /* Starting position */
+            width: 300px; /* Width of the div */
+            height: auto; /* Auto height to fit content */
+            background-color: lightblue; /* Background color for visibility */
+            border: 1px solid blue; /* Border for better visibility */
+            padding: 10px; /* Padding for inner content */
+        }
+    </style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <div id="animation">
+        Ascol is the most thotro clz of nepal 
+    </div>
+    <br>
+    <div id="animated-div"> <!-- Added an ID for this div -->
+        <p>
+            I feel 24k a semester also huge price for studying in ascol
+        </p>
+        <br>
+        <p>
+            But its fuck goverment clz
+        </p>
+    </div>
+    <button id="show-animation">Show Animation</button>
+
+    <script>
+        $(document).ready(function() { // Ensure DOM is fully loaded
+            $("#show-animation").click(function() {
+                $("#animated-div").animate({left: '250px'}, 1000); // Animate the specified div
+            });
+        });
+    </script>
+</body>
+</html>
+
