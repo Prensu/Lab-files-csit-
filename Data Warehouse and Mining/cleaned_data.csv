@@ -1,0 +1,8 @@
+Name,Age,Salary,JoinDate,Salary_Normalized,Department_HR,Department_IT,Department_Marketing
+Malika ,29.0,50000.0,1/15/2020,0.0,False,True,False
+Anjana,22.0,62000.0,7/23/2019,0.5454545454545454,True,False,False
+Lokesh,31.0,60000.0,11/10/2018,0.45454545454545453,False,True,False
+Fauda ,29.0,50000.0,1/15/2020,0.0,False,True,False
+Manisha,25.0,58000.0,1/15/2020,0.36363636363636365,False,False,False
+Unknown,34.0,72000.0,3/5/2021,1.0,False,False,True
+Rajat,28.333333333333332,65000.0,6/17/2020,0.6818181818181818,True,False,False
